@@ -1,0 +1,138 @@
+/*CSS pour tout*/
+header{
+	background-color: #5f2b2b;
+	color: #e4e9eb;
+	font-size: 60px;
+	margin: 30px;
+}
+
+html{
+	background-color: #aa6f45;
+}
+
+div#cRTD{
+	background-color: #777;
+}
+
+h3{
+	color: #5f2b2b;
+	margin: 30px;
+}
+
+p{
+	margin-left: 60px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h4{
+	margin-left: 30px;
+	text-decoration: underline;
+	color: #777;
+}
+
+
+/*acceuil.html*/
+
+
+div#contenue{
+	background-color: #aa6f45;
+}
+div#contenue div{
+	display: inline-block;
+	width: 35%;
+}
+
+div#contenue div.boitegauche{
+	background-color: #5f2b2b;
+	vertical-align: top;
+	border: 1px solid #777;
+	border-radius: 10px;
+}
+
+div#contenue div h1, h2, p, iframe{
+	margin: 35px;
+}
+div#contenue div.boitedroite{
+	background-color: #5f2b2b;
+	width: 60%;
+}
+
+div#contenue div.Actualité{
+	width: 500px;
+	height: 400px;
+	background-color: #aa6f45;
+	margin: 10px;
+}
+
+div#contenue div.Actualité, img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+div#contenue div.Actualité_2{
+	width: 500px;
+	height: 400px;
+	background-color: #aa6f45;
+	margin: 10px;
+}
+
+div#contenue div.Actualité_2, img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+nav.menu-nav{
+	background-color: #aa6f45;
+	border: 5px solid #777;
+	border-radius: 5px;
+	margin: auto;
+}
+
+nav.menu-nav ul li.btn{
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px;
+}
+
+nav.menu-nav ul li.btn a{
+	color: white;
+	text-decoration: none;
+	background-color: #5f2b2b;
+	padding: 5px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+	color: #5f2b2b;
+	background-color: white;
+	transition: 0.3s all; 
+}
+
+footer{
+	background-color: #777;
+}
+
+
+/*Classement*/
+
+div.contour_table{
+	border: 2px solid #5f2b2b;
+	border-radius: 10px;
+	padding: 10px;
+	display: inline-block;
+	margin: 50px auto;
+	background-color: #5f2b2b;
+}
+
+table.classement, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	background-color: #aa6f45;
+}
+
+table.classement{
+	margin: 0 auto;
+}
+/*autre pages*/
+

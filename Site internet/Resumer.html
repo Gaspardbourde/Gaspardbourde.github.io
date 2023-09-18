@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>site internet</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <?php include("post.php"); ?>
+        <?php include("message.php"); ?>
+    </head>
+    <body>
+        <header>
+            <center> 
+                Top 14 le site officieux
+            </center>
+        </header>
+    <body>
+        <nav class="menu-nav">
+            <center>
+                <ul>
+                    <li class="btn">
+                        <a href="acceuil.html">
+                            Acceuil
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="classement.html">
+                            Classement
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="Nation.html">
+                            Nation
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="Resumer.html">
+                            Questionnaire
+                        </a>
+                    </li>
+                </ul>
+            </center>
+        </nav>
+        <form method="post" action="result.php">
+            <p>Question 1: Quel equipe supportez-vous?</p>
+                <input type="radio" name="q1" value="Toulouse">Toulouse<br>
+                <input type="radio" name="q1" value="La Rochelle">La Rochelle<br>
+                <input type="radio" name="q1" value="Racing 92">Racing 92<br>
+                <input type="radio" name="q1" value="Stade Francais">Stade Francais<br>
+                <input type="radio" name="q1" value="Bordeaux-Bègles">Bordeaux-Bègles<br>
+                <input type="radio" name="q1" value="Toulon">Toulon<br>
+                <input type="radio" name="q1" value="Clermont">Clermont<br>
+                <input type="radio" name="q1" value="Brive">Brive<br>
+                <input type="radio" name="q1" value="Castre">Castre<br>
+                <input type="radio" name="q1" value="Perpignan">Perpignan<br>
+                <input type="radio" name="q1" value="Lou Rugby">Lou Rugby<br>
+                <input type="radio" name="q1" value="Section Paloise">Section Paloise<br>
+                <input type="radio" name="q1" value="Bayonne">Bayonne<br>
+                <input type="radio" name="q1" value="Montpellier">Montpellier<br>
+            <br>
+            <p>Question 2: Combien de match regardez vous par week-end de Top 14?</p>
+            <select name="q2">
+                <option value="1">1</option>
+                <option value="entre 2 et 4">entre 2 et 4</option>
+                <option value="plus de 4">plus de 4</option>
+            </select>
+            <br>
+            <p>Question 3: Quelle equipe d'après vous va gagner le Top 14 cette année?</p>
+                <input type="radio" name="q3" value="Toulouse">Toulouse<br>
+                <input type="radio" name="q3" value="La Rochelle">La Rochelle<br>
+                <input type="radio" name="q3" value="Racing 92">Racing 92<br>
+                <input type="radio" name="q3" value="Stade Francais">Stade Francais<br>
+                <input type="radio" name="q3" value="Bordeaux-Bègles">Bordeaux-Bègles<br>
+                <input type="radio" name="q3" value="Toulon">Toulon<br>
+                <input type="radio" name="q3" value="Clermont">Clermont<br>
+                <input type="radio" name="q3" value="Brive">Brive<br>
+                <input type="radio" name="q3" value="Castre">Castre<br>
+                <input type="radio" name="q3" value="Perpignan">Perpignan<br>
+                <input type="radio" name="q3" value="Lou Rugby">Lou Rugby<br>
+                <input type="radio" name="q3" value="Section Paloise">Section Paloise<br>
+                <input type="radio" name="q3" value="Bayonne">Bayonne<br>
+                <input type="radio" name="q3" value="Montpellier">Montpellier<br>
+            <br>
+            <p>Question 4: Est ce que vous vous interessez aux ligues européennes?</p>
+                <input type="radio" name="q4" value="oui">oui<br>
+                <input type="radio" name="q4" value="non">non<br>
+                <input type="radio" name="q4" value="de temps en temps">de temps en temps<br>
+            <br>
+            <button type="button" onclick="envoyerQuestionnaire()">Envoyer</button>
+        </form>
+        <script>
+            function envoyerQuestionnaire() {
+                alert("Envoi réussi !");
+            }
+        </script>
+    </body>
+</html>
