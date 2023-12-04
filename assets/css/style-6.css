@@ -1,0 +1,9 @@
+/*Images */
+body { padding: 4% 20% }
+img{
+    width:250px ;
+    height: 250px;
+    margin-bottom: 32px;
+    /*Soften cornes of images */
+    border-radius: 15px ;
+}
